@@ -25,7 +25,7 @@ const Done = () => {
         <div className="rounded-lg bg-teal-500 p-4">
           <div className="mb-2 flex items-center justify-between">
             <h3 className="text-lg font-semibold">
-              Done ({" "}
+              Done (
               {filteredTasks.filter((task) => task.category === "done").length})
             </h3>
             <button onClick={() => handleSortToggle("done")}>

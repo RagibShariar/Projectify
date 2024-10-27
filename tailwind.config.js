@@ -9,6 +9,9 @@ export default {
       colors: {
         clifford: "#da373d",
       },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],

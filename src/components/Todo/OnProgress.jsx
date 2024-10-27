@@ -25,7 +25,7 @@ const OnProgress = () => {
         <div className="rounded-lg bg-yellow-500 p-4">
           <div className="mb-2 flex items-center justify-between">
             <h3 className="text-lg font-semibold">
-              On Progress ({" "}
+              On Progress (
               {
                 filteredTasks.filter((task) => task.category === "onprogress")
                   .length
